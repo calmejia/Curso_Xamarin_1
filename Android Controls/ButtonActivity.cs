@@ -14,7 +14,7 @@ namespace Android_Controls
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.Button);
-
+            //prueba comentario Pc
             Button button = FindViewById<Button>(Resource.Id.Button);
             button.Click += (sender, e) => {
                 Intent browserIntent =
